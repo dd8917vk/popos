@@ -189,3 +189,13 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+halp () {
+    curl cheat.sh/"$1"
+}
+alias clear="/usr/bin/clear"
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Documents/code
+source /usr/local/bin/virtualenvwrapper.sh
