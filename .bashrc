@@ -199,3 +199,16 @@ export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/code
 source /usr/local/bin/virtualenvwrapper.sh
+alias adog="git log --all --decorate --oneline --graph"
+alias addog='/site/apps/git/bin/git log --all --decorate --oneline --graph --pretty=format:"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)%cd%Creset %s" --date=format:"%y-%m%d-%H%M"'
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit"
+alias gco="git checkout"
+alias gcom="git checkout master"
+alias gd="git diff"
+alias gl="git config -l"
+alias grso="git remote show origin"
+alias gs="git status"
+alias gds="git diff --staged"
+alias django_create_project="~/django_start.sh"
